@@ -1,0 +1,134 @@
+.Titles {
+    margin: 0px;
+    padding: none;
+}
+
+body {
+    background:rgb(250, 245, 240);
+    margin: 0px;
+    padding: none;
+}
+
+p {
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0,0,0);
+    margin-left: 25%;
+    margin-right: 25%;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(17,13,70);
+}
+
+a:link, a:visited {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: rgb(17,13,70);
+    color: rgb(250, 245, 240);
+    padding: 14px 25px;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+a:hover, a:active {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    background-color: rgb(250, 245, 240);
+    color: rgb(17, 13, 70);
+    padding: 12px 23px;
+    border: 2px solid rgb(17, 13, 70);
+    display: inline-block;
+    font-weight: bold;
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    box-shadow: 0 20px 20px rgb(125, 122, 120)
+}
+
+.Heading {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(17,13,70);
+}
+
+.form {
+    background-color: rgb(250, 245, 240);
+    color: rgb(17, 13, 70);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%
+}
+
+input {
+    background-color: rgb(250, 245, 240);
+    color: rgb(17, 13, 70);
+    width: 15%;
+    height: auto;
+    display: flex;
+}
+
+textarea {
+    background-color: rgb(250, 245, 240);
+    color: rgb(17, 13, 70);
+    width: 45%;
+    height: auto;
+    display: flex;
+}
+
+ul {
+    color: rgb(17, 13, 70);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40%;
+    float: center;
+    line-height: 2;
+}
+
+img {
+    margin-left: 25%;
+    float: left;
+    border: 2px solid rgb(17, 13, 70);
+    max-width: 15%;
+    max-height: auto;
+    box-shadow: 0 0px 20px rgb(0, 0, 0);
+}
+
+label {
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(0,0,0);
+}
+
+button {
+    width: 75px;
+}
